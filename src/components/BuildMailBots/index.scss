@@ -1,0 +1,30 @@
+@import '../../constants.scss';
+.BuildMailBots {
+  text-align: center;
+}
+.BuildMailBots-description {
+  max-width: 40%;
+  min-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.BuildMailBots-Items {
+  text-align: left;
+}
+
+.BuildMailBots-3mins {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: $color-blue;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 19px;
+  padding: 30px 0px;
+  text-align: center;
+  display: inline-block;
+  img {
+    vertical-align: middle;
+  }
+}

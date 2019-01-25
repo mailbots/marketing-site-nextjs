@@ -1,0 +1,40 @@
+@import '../../constants.scss';
+
+.BotExamples-Items {
+  margin-top: 60px;
+}
+.BotExamples {
+  display: flex;
+  flex-flow: column;
+
+  @media (min-width: $b2) {
+    flex-flow: row;
+  }
+}
+
+.BotExamples-box1-text {
+  margin-top: 50px;
+  font-size: 18px;
+}
+.BotExamples-Items {
+  display: flex;
+  flex-flow: column;
+}
+.BotExamples-box2 {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: $b2) {
+  .BotExamples-box1 {
+    display: block;
+  }
+  .BotExamples-box2 {
+    display: block;
+    margin-left: 150px;
+  }
+}
+@media (min-width: $b3) {
+  .BotExamples-box2 {
+    margin-left: 250px;
+  }
+}

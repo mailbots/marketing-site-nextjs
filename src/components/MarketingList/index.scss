@@ -1,0 +1,27 @@
+@import '../../constants.scss';
+
+.MarketingList-Item-icon {
+  margin: 0px 20px;
+}
+.MarketingList-Item-title {
+  color: #060606;
+  font-size: 22px;
+  letter-spacing: -0.5px;
+  line-height: 27px;
+  margin-bottom: 6px;
+}
+.MarketingList-Item-description {
+  color: $color-normal-text-gray;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 17px;
+}
+.MarketingList-Item {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-bottom: 30px;
+}

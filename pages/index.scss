@@ -1,0 +1,15 @@
+@import '../src/constants.scss';
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: $lato;
+  max-width: $page-width;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
+  margin: 0 auto;
+}
