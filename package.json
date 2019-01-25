@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "rm -fr out && NODE_ENV=production next build && NODE_ENV=production next export",
     "start": "next start",
-    "export": "rm -fr out && NODE_ENV=production next build && NODE_ENV=production next export && cp now.json out && now out && now alias"
+    "release": "npm run build && cp now.json out && now out && now alias"
   },
   "author": "",
   "license": "ISC",
