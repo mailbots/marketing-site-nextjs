@@ -1,0 +1,129 @@
+$b1: 480px;
+$b2: 760px;
+$b3: 1024px;
+
+$page-width: 1400px;
+$page-padding: 20px;
+$lato: "Lato", sans-serif;
+
+$color-blue: #0000eb;
+$color-strong-text-gray: #0d0000;
+$color-normal-text-gray: #434549;
+$color-fade-text-gray: #7a7d81;
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+a,
+p,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4 {
+  color: $color-normal-text-gray;
+}
+
+.App {
+  font-family: $lato;
+  max-width: $page-width;
+  padding-left: $page-padding;
+  padding-right: $page-padding;
+  margin: 0 auto;
+}
+
+.Nav {
+  margin: 30px;
+}
+
+.Hero {
+  display: flex;
+  flex-flow: column;
+  margin-top: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+
+  @media (min-width: $b3) {
+    flex-flow: row;
+    align-items: auto;
+  }
+}
+
+.Hero h1 {
+  font-size: 42px;
+  letter-spacing: -0.5px;
+  line-height: 1.15;
+}
+
+.Hero h2 {
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.3px;
+}
+
+.Hero form {
+  display: flex;
+  flex-flow: row;
+  margin-top: 30px;
+  width: 100%;
+  label {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 1.15;
+    margin-bottom: 15px;
+  }
+
+  input {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    border: none;
+    color: $color-normal-text-gray;
+    padding: 14px 17px;
+    width: 300px;
+  }
+
+  textarea,
+  select,
+  input,
+  button {
+    outline: none;
+  }
+}
+
+.btn-primary {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 0.3px;
+  line-height: 1.2;
+  border-radius: 4px;
+  background-color: $color-blue;
+  padding: 0px 28px;
+  border: none;
+  align-self: stretch;
+  margin-left: 15px;
+  white-space: nowrap;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background: lighten($color-blue, 15%);
+  transition: background 300ms;
+}
+
+.Hero .text {
+  max-width: 500px;
+}
+
+.Hero .hero-image {
+  color: #121216;
+  font-family: $lato;
+  font-size: 14px;
+  line-height: 1.1;
+  margin-left: 20px;
+}

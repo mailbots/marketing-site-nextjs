@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -25,6 +25,7 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Lato"
             rel="stylesheet"
           />
+          <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
         </Head>
         <body>
           <Main />

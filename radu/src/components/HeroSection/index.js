@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import futLogo from './followupthen.png';
-import './index.scss';
+// import futLogo from './followupthen.png';
+import futLogo from "./followupthen@2x.png";
+import "./index.scss";
 
 export default () => {
   return (
@@ -17,7 +18,7 @@ export default () => {
           <label>
             <div>Sign up for the preview</div>
             <div
-              style={{ marginTop: 10, display: 'flex', alignItems: 'center' }}
+              style={{ marginTop: 10, display: "flex", alignItems: "center" }}
             >
               <input placeholder="human@email.com" type="email" />
               <button className="HeroSection-request-access">
@@ -31,13 +32,13 @@ export default () => {
       <div className="HeroSection-box2">
         <div className="HeroSection-box2-content" />
         <p>
-          We are also the creators of{' '}
+          We are also the creators of{" "}
           <img
             src={futLogo}
             style={{
-              verticalAlign: 'middle',
+              verticalAlign: "middle",
               marginLeft: 5,
-              display: 'inline-block'
+              display: "inline-block"
             }}
           />
         </p>

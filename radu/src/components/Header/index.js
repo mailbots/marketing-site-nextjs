@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import './index.scss';
-import logo from './Logo.png';
-import blueDot from './Path.svg';
+import "./index.scss";
+import logo from "./mailbots-logo.svg";
+import blueDot from "./Path.svg";
 
 export default () => {
   return (
@@ -11,10 +11,10 @@ export default () => {
 
       <img
         src={blueDot}
-        style={{ zIndex: -1, position: 'absolute', right: 0, top: 0 }}
+        style={{ zIndex: -1, position: "absolute", right: 0, top: 0 }}
       />
       <div style={{ flex: 1 }} />
-      <a href="" style={{ color: 'white' }}>
+      <a href="" style={{ color: "white" }}>
         Contact
       </a>
 
