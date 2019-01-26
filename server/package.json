@@ -1,0 +1,19 @@
+{
+  "name": "mailbots-home-nov2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Reilly Sweetland <esweetland@gmail.com> (https://reillysweetland.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "4.16.4",
+    "moment": "2.22.2",
+    "promise-mysql": "^3.3.1"
+  }
+}

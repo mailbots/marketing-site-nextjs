@@ -18,10 +18,9 @@ function handleRequestAccess(e) {
   debugger;
   nprogress.start();
   axios({
-    type: "POST",
+    method: "POST",
     url: "/subscribe",
-    data: { email },
-    contentType: "application/json; charset=utf-8"
+    data: { email }
   })
     .then(success => {
       nprogress.done();
@@ -48,10 +47,10 @@ export default () => (
     <Head>
       <title>MailBots</title>
     </Head>
+    <ToastContainer />
     <div className="Nav">
       <img src={mailbotsLogo} />
     </div>
-    <ToastContainer />
     <div className="Hero">
       <div className="text">
         <h1>The Email Bot Platform</h1>
@@ -61,7 +60,7 @@ export default () => (
         </h2>
 
         <form>
-          <label>
+          <label className="light">
             <div>Sign up for the preview</div>
             <div
               style={{ marginTop: 10, display: "flex", alignItems: "center" }}
@@ -77,11 +76,12 @@ export default () => (
             </div>
           </label>
         </form>
-        {/* <p>
-          <a href="https://medium.com/">
+        <p className="light">
+          Our latest blog post:{" "}
+          <a className="light" href="https://medium.com/">
             Introducing MailBots: Bots for Email
           </a>
-        </p> */}
+        </p>
       </div>
 
       <div className="hero-image">

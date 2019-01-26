@@ -1,4 +1,5 @@
 {
   "name": "mailbots-landing",
-  "alias": "mailbots-landing.now.sh"
+  "alias": "mailbots-landing.now.sh",
+  "dotenv": true
 }

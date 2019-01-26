@@ -17,19 +17,6 @@ $color-fade-text-gray: #7a7d81;
   box-sizing: border-box;
 }
 
-a,
-p,
-div,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4 {
-  color: $color-normal-text-gray;
-}
-
 .App {
   font-family: $lato;
   max-width: $page-width;
@@ -39,7 +26,8 @@ h4 {
 }
 
 .Nav {
-  margin: 30px;
+  margin: 50px 0;
+  width: 1000px !important;
 }
 
 .Hero {
@@ -67,17 +55,19 @@ h4 {
   letter-spacing: 0.3px;
 }
 
+.light {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 1.15;
+  margin-bottom: 15px;
+  color: $color-fade-text-gray;
+}
+
 .Hero form {
   display: flex;
   flex-flow: row;
   margin-top: 30px;
   width: 100%;
-  label {
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    line-height: 1.15;
-    margin-bottom: 15px;
-  }
 
   input {
     background-color: #f4f4f4;
@@ -118,12 +108,14 @@ h4 {
 
 .Hero .text {
   max-width: 500px;
+  flex: 1;
 }
 
 .Hero .hero-image {
+  flex: 1;
   color: #121216;
   font-family: $lato;
   font-size: 14px;
   line-height: 1.1;
-  margin-left: 20px;
+  margin-left: 100px;
 }
