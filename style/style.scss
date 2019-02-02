@@ -98,12 +98,31 @@ $color-fade-text-gray: #7a7d81;
   align-self: stretch;
   margin-left: 15px;
   white-space: nowrap;
+  position: relative;
 }
 
 .btn-primary:hover {
   cursor: pointer;
   background: lighten($color-blue, 15%);
   transition: background 300ms;
+}
+.btn-primary::after {
+  opacity: 0;
+  transition: opacity 300ms;
+  content: '';
+  display: block;
+}
+
+.btn-primary:focus::after {
+  opacity: 1;
+  position: absolute;
+  z-index: -1;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
+  border-radius: 4px;
+  box-shadow: inset 0px 0px 3px #0000eb;
 }
 
 .Hero .text {
