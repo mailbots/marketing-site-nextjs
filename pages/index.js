@@ -10,7 +10,7 @@ import axios from "axios";
 import nprogress from "nprogress";
 
 import meetAMailbot from "../assets/ill-meet-a-mailbot.png";
-import mailbotsLogo from "../assets/mailbots-logo.svg";
+import mailbotsLogo from "../assets/mailbots-logo-lg.png";
 
 function handleRequestAccess(e) {
   e.preventDefault();
@@ -49,7 +49,7 @@ export default () => (
     </Head>
     <ToastContainer />
     <div className="Nav">
-      <img src={mailbotsLogo} />
+      <img src={mailbotsLogo} width="150px" />
     </div>
     <div className="Hero">
       <div className="text">
@@ -77,15 +77,21 @@ export default () => (
           </label>
         </form>
         <p className="light">
-          Our latest blog post:{" "}
-          <a className="light" href="https://medium.com/">
+          From our blog:{" "}
+          <a
+            className="light"
+            href="https://medium.com/mailbots/introducing-mailbots-bots-for-email-41602dd145d0"
+          >
             Introducing MailBots: Bots for Email
           </a>
         </p>
       </div>
 
-      <div className="hero-image">
-        <img src={meetAMailbot} style={{ width: 650 }} />
+      <div className="hero-image-container">
+        <img
+          src="http://fut-cdn.s3.amazonaws.com/mailbots/meet-a-mailbot.svg"
+          className="hero-image"
+        />
       </div>
     </div>
   </div>

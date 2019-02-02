@@ -355,14 +355,13 @@ template {
 
 .App {
   font-family: "Lato", sans-serif;
-  max-width: 1400px;
+  max-width: 1140px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto; }
 
 .Nav {
-  margin: 50px 0;
-  width: 1000px !important; }
+  margin: 50px 0; }
 
 .Hero {
   display: flex;
@@ -379,6 +378,9 @@ template {
   font-size: 42px;
   letter-spacing: -0.5px;
   line-height: 1.15; }
+  @media (min-width: 1024px) {
+    .Hero h1 {
+      font-size: 35px; } }
 
 .Hero h2 {
   font-size: 18px;
@@ -402,8 +404,7 @@ template {
     border-radius: 4px;
     border: none;
     color: #434549;
-    padding: 14px 17px;
-    width: 300px; }
+    padding: 14px 17px; }
   .Hero form textarea,
   .Hero form select,
   .Hero form input,
@@ -432,13 +433,18 @@ template {
   max-width: 500px;
   flex: 1; }
 
-.Hero .hero-image {
+.Hero .hero-image-container {
   flex: 1;
   color: #121216;
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 1.1;
-  margin-left: 20px; }
+  margin-left: 100px; }
+  .Hero .hero-image-container .hero-image {
+    width: 650px; }
+    @media (max-width: 480px) {
+      .Hero .hero-image-container .hero-image {
+        width: 400px; } }
 
 .Toastify__toast-container {
   z-index: 9999;

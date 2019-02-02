@@ -11,14 +11,14 @@ module.exports = "/_next/static/images/ill-meet-a-mailbot-de7ac566a0e229b46dd4ac
 
 /***/ }),
 
-/***/ "./assets/mailbots-logo.svg":
-/*!**********************************!*\
-  !*** ./assets/mailbots-logo.svg ***!
-  \**********************************/
+/***/ "./assets/mailbots-logo-lg.png":
+/*!*************************************!*\
+  !*** ./assets/mailbots-logo-lg.png ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTI3cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDEyNyAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDwhLS0gR2VuZXJhdG9yOiBza2V0Y2h0b29sIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT45QTIyODY1Qi01NEVFLTQzQzQtOTQxMC1FOEI2N0ZDN0UyQTQ8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIHNrZXRjaHRvb2wuPC9kZXNjPgogICAgPGcgaWQ9IvCfmoAtUHJlc2VudCIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkhvbWVwYWdlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDYxLjAwMDAwMCwgLTEyOC4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9IkxvZ28iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQ2MS4wMDAwMDAsIDEyNi4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAtMi4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8dGV4dCBpZD0ibWFpbGJvdHMiIGZvbnQtZmFtaWx5PSJMYXRvLUJvbGQsIExhdG8iIGZvbnQtc2l6ZT0iMjYiIGZvbnQtd2VpZ2h0PSJib2xkIiBsZXR0ZXItc3BhY2luZz0iLTEiIGZpbGw9IiMxMjEyMTYiPgogICAgICAgICAgICAgICAgICAgICAgICA8dHNwYW4geD0iMzUiIHk9IjI2Ij5tYWlsPC90c3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHRzcGFuIHg9IjgwLjU5NSIgeT0iMjYiIGZvbnQtZmFtaWx5PSJMYXRvLVJlZ3VsYXIsIExhdG8iIGZvbnQtd2VpZ2h0PSJub3JtYWwiPmJvdDwvdHNwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0c3BhbiB4PSIxMTYuMjgzIiB5PSIyNiIgZm9udC1mYW1pbHk9IkxhdG8tUmVndWxhciwgTGF0byIgZm9udC13ZWlnaHQ9Im5vcm1hbCI+czwvdHNwYW4+CiAgICAgICAgICAgICAgICAgICAgPC90ZXh0PgogICAgICAgICAgICAgICAgICAgIDxnIGlkPSJub3VuX1JlcGx5XzEzMzBfMDAwMDAwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgNC4wMDAwMDApIiBmaWxsPSIjMDAwMDAwIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTMwLDguNzg5MSBMMTkuNjg0OCwwLjE5MzUgTDE5LjY4NDgsNS40ODcgQzE5LjY4NDgsNS40ODcgMTkuNjgzNiw1LjQ4NyAxOS42ODEyLDUuNDg3IEMxOS40NDk5LDUuNDg3IDYuODc2Niw1LjUzOTUgNi44NzY2LDE2LjkzMDUgQzYuODc2NiwxNi45MzA1IDEwLjc4MjYsMTEuNzI2NyAxNy4wMTYsMTEuNzI2NyBDMTcuODYzOCwxMS43MjY3IDE4Ljc1NDIsMTEuODIyNyAxOS42ODQ4LDEyLjA0MTcgTDE5LjY4NDgsMTcuMzg1IEwzMCw4Ljc4OTEgWiIgaWQ9IlBhdGgiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTIzLjIwODYsMjEuMjI4IEwyLjU3ODgsMjEuMjI4IEwyLjU3ODgsNy4wNDQ2IEw5LjAxMTcsNy4wNDQ2IEM5Ljk2NTQsNi4yMzU4IDExLjA2MjgsNS41NDIyIDEyLjMwNTQsNC45NzkxIEMxMi43MzQ0LDQuNzg1IDEzLjE2MTMsNC42MTcgMTMuNTgzMSw0LjQ2NTggTDAsNC40NjU4IEwwLDIzLjgwNjUgTDI1Ljc4NzQsMjMuODA2NSBMMjUuNzg3NCwxNS4wOTY5IEwyMy4yMDg2LDE3LjI0NTggTDIzLjIwODYsMjEuMjI4IFoiIGlkPSJQYXRoIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="
+module.exports = "/_next/static/images/mailbots-logo-lg-440bed4f729433cfb9082e836cc5ecab.png";
 
 /***/ }),
 
@@ -10961,8 +10961,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _assets_ill_meet_a_mailbot_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/ill-meet-a-mailbot.png */ "./assets/ill-meet-a-mailbot.png");
 /* harmony import */ var _assets_ill_meet_a_mailbot_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_assets_ill_meet_a_mailbot_png__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _assets_mailbots_logo_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/mailbots-logo.svg */ "./assets/mailbots-logo.svg");
-/* harmony import */ var _assets_mailbots_logo_svg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_mailbots_logo_svg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _assets_mailbots_logo_lg_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/mailbots-logo-lg.png */ "./assets/mailbots-logo-lg.png");
+/* harmony import */ var _assets_mailbots_logo_lg_png__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_assets_mailbots_logo_lg_png__WEBPACK_IMPORTED_MODULE_9__);
 var _jsxFileName = "/Users/reilly/Projects/marketing-site-nextjs/pages/index.js";
 
 
@@ -11036,7 +11036,8 @@ function handleRequestAccess(e) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_mailbots_logo_svg__WEBPACK_IMPORTED_MODULE_9___default.a,
+    src: _assets_mailbots_logo_lg_png__WEBPACK_IMPORTED_MODULE_9___default.a,
+    width: "150px",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
@@ -11122,29 +11123,27 @@ function handleRequestAccess(e) {
       lineNumber: 79
     },
     __self: this
-  }, "Our latest blog post:", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "From our blog:", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     className: "light",
-    href: "https://medium.com/",
+    href: "https://medium.com/mailbots/introducing-mailbots-bots-for-email-41602dd145d0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 81
     },
     __self: this
   }, "Introducing MailBots: Bots for Email"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "hero-image",
+    className: "hero-image-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 90
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _assets_ill_meet_a_mailbot_png__WEBPACK_IMPORTED_MODULE_8___default.a,
-    style: {
-      width: 650
-    },
+    src: "http://fut-cdn.s3.amazonaws.com/mailbots/meet-a-mailbot.svg",
+    className: "hero-image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 91
     },
     __self: this
   }))));

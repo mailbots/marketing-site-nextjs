@@ -2,7 +2,7 @@ $b1: 480px;
 $b2: 760px;
 $b3: 1024px;
 
-$page-width: 1400px;
+$page-width: 1140px;
 $page-padding: 20px;
 $lato: "Lato", sans-serif;
 
@@ -27,7 +27,6 @@ $color-fade-text-gray: #7a7d81;
 
 .Nav {
   margin: 50px 0;
-  width: 1000px !important;
 }
 
 .Hero {
@@ -47,6 +46,9 @@ $color-fade-text-gray: #7a7d81;
   font-size: 42px;
   letter-spacing: -0.5px;
   line-height: 1.15;
+  @media (min-width: $b3) {
+    font-size: 35px;
+  }
 }
 
 .Hero h2 {
@@ -75,7 +77,11 @@ $color-fade-text-gray: #7a7d81;
     border: none;
     color: $color-normal-text-gray;
     padding: 14px 17px;
-    width: 300px;
+    // width: 300px;
+
+    // @media (min-width: $b3) {
+    //   width: 10px !important;
+    // }
   }
 
   textarea,
@@ -111,11 +117,18 @@ $color-fade-text-gray: #7a7d81;
   flex: 1;
 }
 
-.Hero .hero-image {
+.Hero .hero-image-container {
   flex: 1;
   color: #121216;
   font-family: $lato;
   font-size: 14px;
   line-height: 1.1;
   margin-left: 100px;
+
+  .hero-image {
+    width: 650px;
+    @media (max-width: $b1) {
+      width: 400px;
+    }
+  }
 }
